@@ -22,4 +22,4 @@ buffer.add(7, 11, 9, 12)                        # вывод суммы втор
 buffer.get_current_part()                       # вернуть [оставшиеся элементы]
 buffer.add(14, 16, 21, 17)                      # вывод сумм третьей пятерки
 buffer.get_current_part()                       # вернуть [оставшиеся элементы]
-print(buffer.input_number)
+print('The remaining elements: ', buffer.input_number)
